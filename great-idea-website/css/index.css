@@ -66,7 +66,102 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 header {
+	display: inline-block;
 	width: 100%;
-	height: 25px;
-	
+	height: 20px;
+}
+
+}
+
+.logo {
+	margin-left: 80%;
+}
+
+body {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+
+
+a {
+	display: inline-block;
+	width: 5%;
+	margin: 2% 4%;
+	text-decoration: none;
+	color: black;
+}
+
+.title {
+	width: 100%;
+	margin: 100px 0px 100px 0px;
+	padding: 10px 0px;
+	text-align: center;
+}
+.innovate, .circle {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 10%;
+}
+
+.innovate {
+	font-size: 75px;
+}
+
+.button1 {
+	font-size: 25;
+	border: 4px solid black;
+	background-color: white;
+	width: 25%;
+
+}
+
+.maintop {
+	border-top: 2px solid black;
+	width: 99%;
+}
+
+.features, .about {
+	display: inline-block;
+	padding: 1%;
+	margin-left: 4%;
+	margin-top: 25px;
+}
+
+.features {
+	width: 45%;
+}
+
+.about {
+	width: 45%
+}
+
+.middle-img {
+	width: 100%;
+	padding: 1%;
+}
+
+.mainbottom {
+	border-bottom: 2px solid black;
+}
+
+.services, .product, .vision {
+	display: inline-block;
+	padding: 1%;
+	width: 33%;
+	margin-bottom: 25px;
+}
+
+.address, .phone, .email {
+	margin: 10px 10px 0px 0px;
+}
+
+.contact {
+	margin-top: 40px;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 160px;
+	margin-top: 45px;
 }
